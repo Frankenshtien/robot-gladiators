@@ -43,7 +43,7 @@ var fight = function() {
     } 
     else if (promptFight === "skip" || promptFight === "SKIP") {
         //confirm player wants to skip
-        var confirmSkip = window.confirm("Are you sure you'd like to skip");
+        var confirmSkip = window.confirm("Are you sure you'd like to skip?");
         //if yes (true), leave fight
         if (confirmSkip) {
         window.alert(playerName + " has chosen to skip the fight. Goodbye!");
